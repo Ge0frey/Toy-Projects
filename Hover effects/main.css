@@ -1,0 +1,30 @@
+button{
+    position: relative;
+    border: none;
+    transition: .4s ease-in;
+    z-index: 1;
+    padding: 50px;
+    margin: 2px;
+}
+
+.btn-1:hover{
+    box-shadow: inset -10.5em 0 0 0 #ff96ad, inset 10.5em 0 0 0 #ff96ad;
+}
+
+.btn-2:hover{
+    border: 2px solid #ff96ad;
+    color: #ff96ad;
+    background-color: #17181c;
+}
+
+.btn-3:hover{
+    background: #ff10f0;
+    box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
+
+.btn-4:hover{
+    box-shadow: 10px 10px 0px black;
+    top: -5px;
+    left: -5px;
+}
+
