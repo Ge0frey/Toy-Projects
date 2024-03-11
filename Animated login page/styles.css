@@ -154,7 +154,7 @@ body{
     z-index: 1000;
 }
 
-.container.container.active .toggle-container{
+.container.active .toggle-container{
     transform: translateX(-100%);
     border-radius: 0 150px 100px 0;
 }
@@ -188,11 +188,11 @@ body{
     text-align: center;
     top: 0;
     transform: translateX(0);
-    transition: all 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
 }
 
 .toggle-left{
-    transform: translateX(-200%);
+    transform: translateX(-100%);
 }
 
 .container.active .toggle-left{
@@ -205,5 +205,5 @@ body{
 }
 
 .container.active .toggle-right {
-    transform: translateX(200%);
+    transform: translateX(100%);
 }
