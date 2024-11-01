@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container, .renderSection {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+label, select,span {
+    display: block;
+}
+
+label,input,select,button,span {
+    margin: 5px 5px 5px 5px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.error {
+    color: red;
+}
+
+.render span {
+    display: inline;
+    margin: 0;
+    font-weight: bold;
+}
+
+.renderSection {
+    line-height: 25px;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 14px;
+    /* display: none; */
+}
+
+
