@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form validation Practise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registration Form</h1>
+    <form id="form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <span id="nameError" class="error"></span>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <span id="emailError" class="error"></span>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <span id="passwordError" class="error"></span>
+
+      <label for="password">Confirm Password:</label>
+      <input type="password" id="confirmpassword" name="password">
+      <span id="ConfirmError" class="error"></span>
+
+      <label for="gender">Gender:</label>
+      <input type="radio" name="gender" value="male" id="male">Male
+      <input type="radio" name="gender" value="female" id="female">Female
+      <span id="genderError" class="error"></span>
+
+      <select name="" id="select">
+        <option value="">Select country</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
+        <option value="Tanzania">Tanzania</option>
+      </select>
+      <span id="selectError" class="error"></span>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <!-- <div class="renderSection">
+    
+    
+  </div> -->
+
+  <script src="script.js"></script>
+</body>
+</html>
